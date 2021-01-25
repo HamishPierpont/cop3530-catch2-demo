@@ -1,16 +1,7 @@
-#include <iostream>
-#include <vector>
+#include "../src/functions.h"
 
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
-
-long sumVector(std::vector<int> arr) {
-    long acc = 0;
-    for(int i = 0; i < arr.size(); i++) {
-        acc += arr.at(i);
-    }
-    return acc;
-}
 
 TEST_CASE("Vector sum is computed correctly", "[vector]"){
     std::vector<int> sum1 = {1, 2, 3};

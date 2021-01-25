@@ -1,3 +1,3 @@
-test: main.cpp catch.hpp
-	g++ main.cpp 
+test: test/test.cpp test/catch.hpp src/functions.h
+	g++ test/test.cpp 
 	./a.out
