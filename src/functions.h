@@ -1,8 +1,6 @@
 #include <vector>
 #include <iostream>
 #include <exception>
-#include <algorithm>
-#include <functional>
 
 long sumVector(std::vector<int> arr) {
     long acc = 0;
